@@ -1,0 +1,23 @@
+{
+  "name": "deploy-docker-heroku",
+  "version": "1.0.0",
+  "description": "An app to display \"Hello World\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iidrees/deploy-docker-heroku.git"
+  },
+  "author": "Idrees Ibraheem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iidrees/deploy-docker-heroku/issues"
+  },
+  "homepage": "https://github.com/iidrees/deploy-docker-heroku#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
